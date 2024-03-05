@@ -1,20 +1,58 @@
 #logoBar{
-  width: 30vw;
+  width: 68vw;
   height: 100vh;
+  position: fixed;
+  text-align: center;
 }
-#siteLogo{
-  width: 100%;
+#divider {
+  width: 2px;
+  background-color: black;
+  margin-left: 68vw;
+  margin-right: 0px;
+  min-height: 100%;
+}
+#information {
+  text-align: left;
 }
 body {
   display: flex;
+  font-family: 'Nunito';
 }
-#staffGallery{
-  width: 70vw;
-  display: inherit;
-
+#photoGallery{
+  width: 35vw;
+  overflow-y: auto;
+  margin-left: 0px; 
+  margin-right: 0px;
+  overflow-x: hidden;
+}
+.card{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 0;
+}
+.container {
+  border: solid;
+  border-color: black;
+  background-color: #D4C685;
+  border-width: 2%;
+  width: 92%;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
 }
 .galleryImage{
-  width: 100%;
+  margin-bottom: -5px;
+  width: 92%;
   height: auto;
-  height: 300px;
+  border: solid;
+  border-width: 2%;
+  border-color: black;
 }
+/* 
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+} */
