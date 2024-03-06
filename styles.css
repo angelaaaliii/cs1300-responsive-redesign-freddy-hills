@@ -31,6 +31,9 @@ h1 {
   align-items: center;
   justify-content: space-around;
 }
+#menuButton:hover {
+  background-color: #E8F4CD;
+}
 .menuLine {
   /* padding-top: 20%; */
   height: 2%;
@@ -54,6 +57,9 @@ h1 {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
 }
+#home:hover {
+  background-color: #E8F4CD;
+}
 #about {
   background-color: #CFE795;
   width: 7.69vh;
@@ -67,6 +73,9 @@ h1 {
   align-items: center;
   writing-mode: tb-rl;
   transform: rotate(-180deg);
+}
+#about:hover {
+  background-color: #E8F4CD;
 }
 #funCenter {
   background-color: #CFE795;
@@ -82,6 +91,9 @@ h1 {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
 }
+#funCenter:hover {
+  background-color: #E8F4CD;
+}
 #dairyStore {
   background-color: #CFE795;
   width: 7.69vh;
@@ -95,6 +107,9 @@ h1 {
   align-items: center;
   writing-mode: tb-rl;
   transform: rotate(-180deg);
+}
+#dairyStore:hover {
+  background-color: #E8F4CD;
 }
 .title {
   font-size: 100vw;
