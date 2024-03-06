@@ -1,4 +1,10 @@
-.menu {
+h1 {
+  font-size: 7vh;
+  text-align: left;
+  font-family: 'Nunito';
+  /* font-size: 2vw; */
+  margin-left: 11vw;
+}.menu {
   display: flex;
   position: fixed;
   width: 7.69vh;
@@ -119,8 +125,8 @@
 #information {
   text-align: left;
   font-family: 'Nunito';
-  /* font-size: 2vw; */
-  margin-left: 10vw;
+  font-size: 3vh;
+  margin-left: 11vw;
 }
 body {
   display: flex;
