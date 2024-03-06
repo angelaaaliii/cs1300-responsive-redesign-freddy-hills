@@ -18,18 +18,17 @@ h1 {
 .menu {
   display: flex;
   position: fixed;
+  top: 0;
   width: 7.69vh;
   background-color: black;
-  height: 110vh;
-  margin-left: -1%;
-  margin-top: -1%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   border: solid;
   border-width: 1%;
   border-color: black;
   overflow-x: hidden;
-  font-size: 2vw;
+  font-size: 1em;
   z-index: 3;
 }
 #menuButton {
@@ -144,6 +143,8 @@ h1 {
 body {
   display: flex;
   font-family: 'Nunito';
+  margin-top: 0;
+  margin-left: 0;
 }
 
 #photoGallery{
@@ -192,11 +193,13 @@ body {
     flex-direction: column;
   }
   #photoGallery {
-    /* margin-left: 5vw; */
-    margin-left: 5vw;
+    margin-left: 6vw;
     overflow-y:unset;
     width: 94vw;
     height: auto;
     position: static;
+  }
+  h1 {
+    width: 100vw;
   }
 }
