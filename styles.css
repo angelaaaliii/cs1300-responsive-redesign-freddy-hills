@@ -1,28 +1,135 @@
-#logoBar{
-  width: 68vw;
-  height: 100vh;
+.menu {
+  display: flex;
   position: fixed;
-  text-align: center;
+  width: 7.69vh;
+  background-color: black;
+  height: 110vh;
+  margin-left: -1%;
+  margin-top: -1%;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-width: 1%;
+  border-color: black;
+  overflow-x: hidden;
+}
+#menuButton {
+  background-color: #A7D3A6;
+  height: 7.69vh;
+  width: 7.69vh;
+  border: solid;
+  border-width: 1%;
+  border-color: black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.menuLine {
+  /* padding-top: 20%; */
+  height: 2%;
+  width: 50%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#home {
+  width: 7.69vh;
+  background-color: #A7D3A6;
+  height: 23.07vh;
+  border: solid;
+  border-bottom: hidden;
+  border-width: 1%;
+  border-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+#about {
+  background-color: #CFE795;
+  width: 7.69vh;
+  height: 23.07vh;
+  border: solid;
+  border-bottom: hidden;
+  border-width: 1%;
+  border-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+#funCenter {
+  background-color: #CFE795;
+  width: 7.69vh;
+  height: 23.07vh;
+  border: solid;
+  border-bottom: hidden;
+  border-width: 1%;
+  border-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+#dairyStore {
+  background-color: #CFE795;
+  width: 7.69vh;
+  height: 23.07vh;
+  border: solid;
+  border-bottom: hidden;
+  border-width: 1%;
+  border-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+.title {
+  font-size: 100vw;
+  font-family: 'Nunito';
+  text-align: left;
+  margin-left: 10vw;
+  /* text-align-last: justify; */
+  /* position: fixed; */
+  width: 65vw;
+}
+#logoBar{
+  width: 100vw;
+  height: 100vh;
+  /* position: fixed; */
+  text-align: left;
+  position: absolute;
+  font-family: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
 #divider {
-  width: 2px;
+  width: 0.2vw;
   background-color: black;
   margin-left: 68vw;
-  margin-right: 0px;
   min-height: 100%;
 }
 #information {
   text-align: left;
+  font-family: 'Nunito';
+  /* font-size: 2vw; */
+  margin-left: 10vw;
 }
 body {
   display: flex;
   font-family: 'Nunito';
 }
 #photoGallery{
+  float: right;
   width: 35vw;
   overflow-y: auto;
-  margin-left: 0px; 
-  margin-right: 0px;
   overflow-x: hidden;
 }
 .card{
@@ -31,28 +138,34 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   border: 0;
+  display: flex;
+  flex-direction: column;
 }
 .container {
   border: solid;
   border-color: black;
   background-color: #D4C685;
-  border-width: 2%;
+  border-width: 1%;
   width: 92%;
-  padding-top: 0px;
-  margin-top: 0px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .galleryImage{
-  margin-bottom: -5px;
+  margin-bottom: -2%;
   width: 92%;
   height: auto;
   border: solid;
-  border-width: 2%;
+  border-width: 1%;
   border-color: black;
+  display: flex;
+  flex-direction: column;
 }
-/* 
+
+
+
 @media (max-width: 600px) {
-  body {
+  #photoGallery {
     flex-direction: column;
   }
-} */
+}
