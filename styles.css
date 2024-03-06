@@ -44,9 +44,9 @@ h1 {
   align-items: center;
   justify-content: space-around;
 }
-/* #menuButton:hover {
+#menuButton:hover {
   background-color: #E8F4CD;
-} */
+}
 .menuLine {
   /* padding-top: 20%; */
   height: 2%;
