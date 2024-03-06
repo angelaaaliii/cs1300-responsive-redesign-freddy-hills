@@ -2,10 +2,11 @@ h1 {
   font-size: 300%;
   text-align: left;
   font-family: 'Nunito';
-  /* font-size: 2vw; */
   margin-left: 12vw;
   z-index: 2;
 }
+
+
 #information {
   text-align: left;
   font-family: 'Nunito';
@@ -15,14 +16,15 @@ h1 {
   width: 65vw;
   overflow: auto;
 }
+
 .menu {
   display: flex;
   position: fixed;
+  margin: 0;
   top: 0;
   width: 7.69vh;
   background-color: black;
-  height: 100%;
-  display: flex;
+  height: 100vh;
   flex-direction: column;
   border: solid;
   border-width: 1%;
@@ -33,6 +35,7 @@ h1 {
 }
 #menuButton {
   background-color: #A7D3A6;
+  margin: 0;
   height: 7.69vh;
   width: 7.69vh;
   border: solid;
@@ -46,15 +49,14 @@ h1 {
 #menuButton:hover {
   background-color: #E8F4CD;
 }
-.menuLine {
-  /* padding-top: 20%; */
+ .menuLine {
   height: 2%;
   width: 50%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
+} 
 #home {
   width: 7.69vh;
   background-color: #A7D3A6;
@@ -126,7 +128,6 @@ h1 {
 #logoBar{
   width: 65vw;
   height: 30vh;
-  /* position: fixed; */
   text-align: left;
   position: absolute;
   font-family: 100vw;
@@ -143,8 +144,8 @@ h1 {
 body {
   display: flex;
   font-family: 'Nunito';
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #photoGallery{
@@ -194,12 +195,24 @@ body {
   }
   #photoGallery {
     margin-left: 6vw;
-    overflow-y:unset;
+    overflow-y:visible;
     width: 94vw;
     height: auto;
     position: static;
   }
   h1 {
-    width: 100vw;
+    width: 98%;
+    margin-left: 20vw;
   }
-}
+  #information {
+    margin-top: 35vh;
+    margin-left: 20vw;
+  }
+  .menu {
+    position: fixed;
+    height:100vh;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+  }
+} 
